@@ -12,7 +12,8 @@ namespace WebSeguros.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("Login", "Logins");
+            // return View();
         }
 
         public IActionResult About()
