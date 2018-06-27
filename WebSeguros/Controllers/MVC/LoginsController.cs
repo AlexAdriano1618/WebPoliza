@@ -46,7 +46,7 @@ namespace WebSeguros.Controllers.MVC
             try
             {
                 response = await apiServicio.ObtenerElementoAsync(login, new Uri(WebApp.BaseAddress),
-                                                             "api/Logins/ObtenerUser");
+                                                             "api/Logins/ObtenerUsuario");
                 if (response.IsSuccess)
                 {
 
