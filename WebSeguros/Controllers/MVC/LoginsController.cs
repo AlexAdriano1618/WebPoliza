@@ -50,7 +50,7 @@ namespace WebSeguros.Controllers.MVC
                 if (response.IsSuccess)
                 {
 
-                    return RedirectToAction("Index");
+                    return RedirectToAction("Index", "Personas");
                 }
 
                 return RedirectToAction("Login");
